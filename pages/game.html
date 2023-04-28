@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!--Meta Tags-->
+      <meta charset="UTF-8">
+      <meta name="description" content="A magic 8 ball thingy">
+      <meta name="keywords" content="magic, eightball, stuff">
+      <meta name="author" content="Mason Kuenneke">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Page Title-->
+      <title>Breakout</title>
+      <!--Import Styles-->
+      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../styles/normalize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <!--game settings; DONT TOUCH-->
+      <style>
+          body {
+              text-align: center;
+              background-color: black;
+          }
+      </style>
+  </head>
+  <body>
+    <!--Navigation Menu-->
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="../index.html">Magical Influences</a></li>
+          <li class="item"><a href="../index.html">Instructions</a></li>
+          <li class="item"><a href="pages/game.html">Play!</a></li>
+          <li class="toggle"></li></a></li>
+        </ul>
+      </nav>
+    <br>
+    <h1 class="center">Breakout</h1>
+    <br>
+    <div id="container">
+        <button type="button" id="startBtn" onclick="draw()"><img src="https://1.bp.blogspot.com/-fVAKH-3TLuo/W5onDDHje0I/AAAAAAAAB4I/q2ooE6GuzQkS80dtw1JILXjFWdfQ3IKkwCLcBGAs/s1600/breaoutplay.png">
+        </button>
+        <canvas id="myCanvas" width="600" height="550"></canvas>
+      </div>
+    <script src="../scripts/script.js">
+      
+    </script> 
+    <audio loop autoplay>
+      <source src="../audio/fire.mp3" type="audio/mp3">
+    </audio>
+  </body>
+</html>
